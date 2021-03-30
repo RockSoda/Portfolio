@@ -61,3 +61,28 @@
   });
 
 })(jQuery); // End of use strict
+
+function download(text) { 
+              
+  //creating an invisible element 
+  var element = document.createElement('a'); 
+  element.setAttribute('href', text);
+
+  // Above code is equivalent to 
+  // <a href="path of file" download="file name"> 
+
+  document.body.appendChild(element); 
+
+  //onClick property 
+  element.click(); 
+
+  document.body.removeChild(element); 
+}
+
+document.getElementById("downloadBtn") 
+.addEventListener("click", function() { 
+  
+    var text = 'https://firebasestorage.googleapis.com/v0/b/portfolio-xiaohan.appspot.com/o/Resume.docx?alt=media&token=73815fd2-40fd-418c-814a-e41052df365a';
+
+    download(text);
+}, false); 

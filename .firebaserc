@@ -1,6 +1,9 @@
 {
   "projects": {
     "default": "portfolio-xiaohan",
-    "development": "portfolio-xiaohan"
-  }
+    "development": "portfolio-xiaohan",
+    "production": "portfolio-xiaohan"
+  },
+  "targets": {},
+  "etags": {}
 }

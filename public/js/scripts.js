@@ -82,7 +82,7 @@ function download(text) {
 document.getElementById("downloadBtn") 
 .addEventListener("click", function() { 
   
-    var text = 'https://firebasestorage.googleapis.com/v0/b/portfolio-xiaohan.appspot.com/o/Resume.docx?alt=media&token=73815fd2-40fd-418c-814a-e41052df365a';
+    var text = 'https://firebasestorage.googleapis.com/v0/b/portfolio-xiaohan.appspot.com/o/Resume.pdf?alt=media&token=d580c33e-051a-4988-969e-0e66f3958946';
 
     download(text);
 }, false); 
